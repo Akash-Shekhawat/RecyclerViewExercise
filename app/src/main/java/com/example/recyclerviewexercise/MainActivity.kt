@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         // add data in recycler view
 
-        for (i in 1..5) {
+        for (i in 1..4) {
             datatosend.add(
                 DataClass(
                     "Ice Cream Sundae",
@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity() {
 
         val handler = Handler()
         handler.postDelayed({
-            for (i in 1..5) {
+            for (i in 1..4) {
                 datatosend.add(
                     DataClass(
                         "Ice Cream Sundae",
